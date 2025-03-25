@@ -1,0 +1,11 @@
+# Frontend
+node_modules/
+dist/
+
+# Backend
+target/
+*.log
+
+# IDE settings
+.idea/
+*.iml
