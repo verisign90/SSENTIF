@@ -6,7 +6,11 @@ function Test() {
 
   useEffect(() => {
     axios
-      .get("https://15e8-218-237-73-29.ngrok-free.app/data")
+      .get("https://ab37-218-237-73-29.ngrok-free.app/data", {
+        headers: {
+          "ngrok-skip-browser-warning": "true"
+        }
+      })
       .then((response) => {
         setData(response.data);
       })
