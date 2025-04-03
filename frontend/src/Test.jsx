@@ -6,7 +6,7 @@ function Test() {
 
   useEffect(() => {
     axios
-      .get("/api/data")
+      .get("https://15e8-218-237-73-29.ngrok-free.app/data")
       .then((response) => {
         setData(response.data);
       })
